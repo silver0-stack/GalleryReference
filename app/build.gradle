@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+}
+android {
+    compileSdkVersion 33
+    //noinspection GradleCompatible
+
+    defaultConfig {
+        applicationId "com.android.handstudio.gallery"
+        minSdkVersion 18
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    // Espresso
+// Core library
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+// AndroidJUnitRunner and JUnit Rules
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+
+    //리사이클러뷰 라이브러리
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    //이미지 로더 라이브러리
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    //For Kotlin You should use kapt instead of annotationProcessor though.
+//    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+    implementation 'androidx.core:core-ktx:1.9.0'
+    androidTestImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'org.testng:testng:6.9.6'
+
+}

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "272814837372",
+    "project_id": "capstone-cd699",
+    "storage_bucket": "capstone-cd699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272814837372:android:9e03c130b3715d2a7fc3f9",
+        "android_client_info": {
+          "package_name": "com.android.handstudio.gallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272814837372-e9tikvil9knfh79ucnqhso9icp33n7i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-JsvAjmhqmSZ8EKWIvhjJUIeEsqzIVwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272814837372-e9tikvil9knfh79ucnqhso9icp33n7i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272814837372:android:d642d62928b38d5c7fc3f9",
+        "android_client_info": {
+          "package_name": "com.android.handstudio.gallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272814837372-e9tikvil9knfh79ucnqhso9icp33n7i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-JsvAjmhqmSZ8EKWIvhjJUIeEsqzIVwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272814837372-e9tikvil9knfh79ucnqhso9icp33n7i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
